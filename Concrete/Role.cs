@@ -18,5 +18,6 @@ namespace EntityLayer.Concrete
         public ICollection<User> Users { get; set;}
         public ICollection<UserAuthority> Authorities { get; set;}
         public ICollection<RoleAuthority> RoleAuthorities { get; set;}
+        public ICollection<Document> Documents { get; set;}
     }
 }

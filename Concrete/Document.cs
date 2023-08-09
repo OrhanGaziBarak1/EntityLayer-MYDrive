@@ -15,5 +15,8 @@ namespace EntityLayer.Concrete
         public int FolderID { get; set; }
         public Folder Folder { get; set; }
 
+        public int RoleID { get; set; }
+        public Role Role { get; set; }
+
     }
 }
